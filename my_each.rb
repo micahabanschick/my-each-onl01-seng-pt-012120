@@ -4,6 +4,5 @@ def my_each(array)
   while i < array.length do 
     yield(array[i])
     i+=1
-    array.push("l")
   end 
 end
